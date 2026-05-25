@@ -1,0 +1,12 @@
+path: Z:/
+
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: uav
+  1: person
+  2: vehicle
+  3: two_wheeler
+  4: airborne_distractor
