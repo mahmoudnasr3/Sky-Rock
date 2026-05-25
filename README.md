@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Sky-Rock
 
 Sky-Rock is a safe aerial robotics research platform for:
@@ -33,6 +32,3 @@ The system focuses on:
 - `blockchain` — audit/event ledger
 - `infrastructure` — Docker Compose and Kubernetes files
 - `docs` — setup and project documentation
-=======
-# Sky-Rock
->>>>>>> 96c4fd377733984682f400a2c3a19a47e58b7711
