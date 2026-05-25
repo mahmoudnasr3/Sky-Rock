@@ -1,0 +1,18 @@
+{
+  "name": "sky-rock-blockchain",
+  "version": "1.0.0",
+  "description": "Sky-Rock blockchain audit logger",
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "node": "hardhat node --hostname 0.0.0.0",
+    "deploy:local": "tsx scripts/deploy.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "ethers": "^6.16.0",
+    "hardhat": "^3.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}
