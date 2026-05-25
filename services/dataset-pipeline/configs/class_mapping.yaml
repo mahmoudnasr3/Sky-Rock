@@ -1,0 +1,46 @@
+names:
+  0: uav
+  1: person
+  2: vehicle
+  3: two_wheeler
+  4: airborne_distractor
+
+mappings:
+  uav:
+    id: 0
+    aliases:
+      - uav
+      - drone
+      - flying uav
+
+  person:
+    id: 1
+    aliases:
+      - person
+      - pedestrian
+      - people
+
+  vehicle:
+    id: 2
+    aliases:
+      - car
+      - van
+      - truck
+      - bus
+
+  two_wheeler:
+    id: 3
+    aliases:
+      - bicycle
+      - motorcycle
+      - motor
+      - tricycle
+      - awning-tricycle
+
+  airborne_distractor:
+    id: 4
+    aliases:
+      - bird
+      - airplane
+      - aircraft
+      - kite

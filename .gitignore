@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+.env
+.env.*
+
+# Node
+node_modules/
+dist/
+build/
+
+# Datasets - keep local only
+datasets/raw/
+datasets/processed/
+
+# YOLO / training outputs
+runs/
+*.pt
+*.onnx
+*.engine
+*.weights
+
+# Kaggle / Roboflow
+kaggle_dataset/
+skyrock_yolo.zip
+roboflow_sample/
+*.zip
+
+# Blockchain
+blockchain/node_modules/
+blockchain/artifacts/
+blockchain/cache/
+blockchain/typechain-types/
+blockchain/deployment/
+
+# Logs
+*.log
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Private notes / transcripts
+*chat-transcript*.txt
+Sky-Rock-chat-transcript-*.txt
