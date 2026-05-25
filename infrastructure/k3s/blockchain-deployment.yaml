@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sky-rock-blockchain
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sky-rock-blockchain
+  template:
+    metadata:
+      labels:
+        app: sky-rock-blockchain
+    spec:
+      containers:
+        - name: blockchain
+          image: sky-rock-blockchain:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8545

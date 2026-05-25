@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sky-rock-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sky-rock-api
+  template:
+    metadata:
+      labels:
+        app: sky-rock-api
+    spec:
+      containers:
+        - name: api
+          image: sky-rock-api:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8000

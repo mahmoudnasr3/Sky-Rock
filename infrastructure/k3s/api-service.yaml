@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: sky-rock-api-service
+spec:
+  selector:
+    app: sky-rock-api
+  ports:
+    - port: 8000
+      targetPort: 8000
+  type: ClusterIP
